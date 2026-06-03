@@ -54,3 +54,5 @@ public class FootballNews extends News {
         setScore(score);
     }
 }
+
+
