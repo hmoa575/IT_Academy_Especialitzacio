@@ -1,7 +1,5 @@
 package sportnews;
 
-import sportnews.*;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -194,3 +192,5 @@ public class Main {
         return null;
     }
 }
+
+
