@@ -1,16 +1,16 @@
 # Tasca S01.01 – Smartphone with Multiple Functionalities
 
-**Description**:  
-This project demonstrates the use of class inheritance and interface implementation in Java. 
-It simulates a smartphone that inherits from a basic phone and also implements camera and clock 
+**Description**:
+This project demonstrates the use of class inheritance and interface implementation in Java.
+It simulates a smartphone that inherits from a basic phone and also implements camera and clock
 functionalities.
 
 ## Exercise Statement
 
-Create a `Phone` class with brand, model, and a method to make calls.  
-Define two interfaces: `Camera` (with `takePhoto()`) and `Clock` (with `activateAlarm()`).  
-Develop a `Smartphone` class that extends `Phone` and implements both interfaces.  
-In the `main()` method, create a `Smartphone` object, test making a call, taking a photo, and activating 
+Create a `Phone` class with brand, model, and a method to make calls.
+Define two interfaces: `Camera` (with `takePhoto()`) and `Clock` (with `activateAlarm()`).
+Develop a `Smartphone` class that extends `Phone` and implements both interfaces.
+In the `main()` method, create a `Smartphone` object, test making a call, taking a photo, and activating
 an alarm.
 
 ## Features
@@ -26,11 +26,9 @@ an alarm.
 - **Tools**: JDK 25, IDE (IntelliJ, VS Code)
 - **Dependencies**: None (pure Java project)
 
-
-
 # SportsNews – Sports News Editorial System
 
-**Description**:  
+**Description**:
 A Java console application to manage a sports news editorial office. It allows registering journalists, adding news categorized by sport (football, basketball, tennis, F1, MotoGP), automatically calculating the score and price of each news item according to business rules, and displaying all information through an interactive menu.
 
 ## Exercise Statement
@@ -41,13 +39,13 @@ Design a system with the following requirements:
 - **News**: each news item has a title, text (empty when created), a score, and a price. There are 5 types: Football, Basketball, Tennis, F1, and MotoGP. Each type contains specific attributes (competition, club, player, team, etc.).
 - **Price & Score calculation**: specific methods for each news type following the given tables (e.g., football base price €300 + bonuses for competition, clubs, or prominent players).
 - **Main menu** with options to:
-    1. Add journalist
-    2. Remove journalist
-    3. Add news to a journalist
-    4. Remove news (by journalist and news title)
-    5. Show all news of a journalist
-    6. Calculate score of a news item
-    7. Calculate price of a news item
+  1. Add journalist
+  2. Remove journalist
+  3. Add news to a journalist
+  4. Remove news (by journalist and news title)
+  5. Show all news of a journalist
+  6. Calculate score of a news item
+  7. Calculate price of a news item
 
 ## Features
 
@@ -73,10 +71,12 @@ Design a system with the following requirements:
    git clone https://github.com/your-username/Tasca_S01_01.git
    cd Tasca_S01_01
 
+   ```
+
 ## Diagram
 
-        ┌─────────────┐
-        │  <<interface>>   │
+    ┌─────────────┐
+        │  <`<interface>`>   │
         │     Camera        │
         │ + takePhoto()     │
         └─────────┬─────────┘
