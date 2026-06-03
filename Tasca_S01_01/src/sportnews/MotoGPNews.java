@@ -31,3 +31,4 @@ public class MotoGPNews extends News {
         setScore(score);
     }
 }
+
