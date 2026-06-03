@@ -15,3 +15,4 @@ public class Smartphone extends Phone implements Camera, Clock {
         System.out.println("Alarm! from: " + trade + " " + model);
     }
 }
+
