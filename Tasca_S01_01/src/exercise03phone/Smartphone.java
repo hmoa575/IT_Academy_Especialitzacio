@@ -1,4 +1,4 @@
-package phone;
+package exercise03phone;
 
 public class Smartphone extends Phone implements Camera, Clock {
 

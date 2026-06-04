@@ -1,4 +1,4 @@
-package car;
+package exercise02car;
 
 public class Car {
     static final String brand = "ford";
