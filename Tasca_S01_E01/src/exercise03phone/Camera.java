@@ -1,5 +1,5 @@
 package exercise03phone;
 
 public interface Camera {
-    void takePicture();
+    public void takePicture();
 }

@@ -1,7 +1,7 @@
 package exercise02car;
 
 public class Car {
-    //Atributos
+    //Attributes
     private static final String brand = "FORD";
     private static String model = "Mustang";
     private final int power;

@@ -1,6 +1,6 @@
 package exercise03phone;
 
 public interface Clock {
-    void activeAlarm();
+  public  void activeAlarm();
 }
 
