@@ -88,4 +88,3 @@ Class that extends Phone and implements the Camera and Clock interfaces. It repr
 
 Main
 Main class of the exercise. It creates a Smartphone object and executes its different functionalities in order to demonstrate the combined use of inheritance and interfaces in Java.
-
