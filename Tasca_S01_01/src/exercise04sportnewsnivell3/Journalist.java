@@ -1,4 +1,4 @@
-package sportnewsnivell3;
+package exercise04sportnewsnivell3;
 
 import java.util.ArrayList;
 import java.util.List;

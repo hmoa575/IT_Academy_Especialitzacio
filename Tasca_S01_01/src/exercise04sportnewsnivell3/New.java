@@ -1,4 +1,4 @@
-package sportnewsnivell3;
+package exercise04sportnewsnivell3;
 
 public abstract class New {
     //Abstract attributes
@@ -6,7 +6,6 @@ public abstract class New {
     private String text;
     private float price;
     private int points;
-
     //Constructor
     public New(String headline, String text, float price, int points){
         this.headline = headline;
@@ -40,9 +39,17 @@ public abstract class New {
     public void setPoints(int points){
         this.points = points;
     }
-
     //abstract methods
     public abstract float calcularPreuNoticia();
     public abstract int calcularPuntuacion();
 
+    @Override
+    public String toString() {
+        return "New{" +
+                "headline='" + headline + '\'' +
+                ", text='" + text + '\'' +
+                ", price=" + price +
+                ", points=" + points +
+                '}';
+    }
 }
