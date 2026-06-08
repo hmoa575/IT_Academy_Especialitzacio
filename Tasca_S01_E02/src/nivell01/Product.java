@@ -1,4 +1,4 @@
-package exercise01nivel01;
+package nivell01;
 
 public class Product {
     //Attributes
@@ -23,6 +23,7 @@ public class Product {
     public void setPrice(float price){
         this.price = price;
     }
+
     @Override
     public String toString() {
         return "Product{" +
