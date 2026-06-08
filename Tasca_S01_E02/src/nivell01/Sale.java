@@ -12,7 +12,7 @@ public class Sale {
     //Constructor
     public Sale(){
         this.totalPrice = 0;
-        List<Product> productsList = new ArrayList<>();
+        this.productsList = new ArrayList<>();
     }
     //Getters and Setters
     public float getTotalPrice(){
